@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,GAAG;EACF,UAAU,EAAE,aAAY",
+"sources": ["../sass/val.sass"],
+"names": [],
+"file": "val.css"
+}

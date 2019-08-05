@@ -1,0 +1,253 @@
+@charset "UTF-8";
+.mt, .main-menu > ul > li > a:hover {
+  transition: all 0.5s ease; }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+nav li {
+  display: inline-block; }
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative; }
+
+h1 {
+  line-height: 55px; }
+
+h4 {
+  font-weight: 700; }
+
+p {
+  font-size: 18px; }
+
+span {
+  font-weight: 900; }
+
+.subp p {
+  color: #555;
+  font-size: 17px; }
+
+.imgit h3 {
+  color: #000;
+  font-size: 18px;
+  padding-top: 30px; }
+.imgit p {
+  color: #777;
+  font-size: 15px; }
+
+.subheadp p {
+  color: #555;
+  padding-top: 10px; }
+
+.bluediv hr {
+  color: #4FC3F7;
+  line-height: 3px;
+  border: 1px solid #4FC3F7; }
+
+.research p {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.addhead {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.reszone {
+  margin-bottom: 30px; }
+
+.servsubhead h2 {
+  margin-bottom: 30px; }
+.servsubhead ul {
+  margin-bottom: 40px; }
+.servsubhead li {
+  font-size: 20px; }
+.servsubhead a {
+  color: black; }
+
+.servcont > h3 {
+  color: #505e6b; }
+
+.mainhead {
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-position: top center;
+  min-height: 15vh;
+  border-bottom: 2px solid #4FC3F7; }
+
+.aboutdocs {
+  width: 100%; }
+
+.aboutdoctorsitem {
+  margin-top: 30px; }
+
+.topp {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.rounded {
+  margin-top: 10%; }
+
+.logo {
+  margin-top: 0px;
+  margin-left: 0px; }
+
+.main-menu > ul {
+  padding: 0px; }
+  .main-menu > ul > li > a {
+    display: block;
+    padding: 20px 6px;
+    color: #505e6b; }
+    .main-menu > ul > li > a:hover {
+      text-decoration: none;
+      color: #4FC3F7; }
+  .main-menu > ul > li.active a {
+    color: #4FC3F7; }
+
+.phone {
+  margin-top: 17px;
+  font-size: 18px; }
+
+.headcont {
+  line-height: 30px; }
+  .headcont ul {
+    list-style: none;
+    padding: 0px;
+    padding-top: 15px; }
+  .headcont li {
+    color: #505e6b;
+    font-size: 18px; }
+  .headcont li:before {
+    content: "• ";
+    font-size: 30px; }
+
+.leftcont {
+  margin-top: 12%; }
+
+.btn-primary {
+  margin-top: 20px;
+  margin-right: 80px;
+  background-color: #4FC3F7;
+  border-color: #4FC3F7;
+  border-radius: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.btn-primary:hover {
+  background-color: #3c9bc5;
+  border-color: #3c9bc5; }
+
+.img_resp {
+  max-width: 200%;
+  margin-bottom: 70px; }
+
+.top-img-wrap {
+  max-height: 100%; }
+
+.hrmaintop {
+  size: 3px; }
+
+.alphasc {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #4FC3F7; }
+  .alphasc p {
+    font-size: 22px; }
+
+.advantages {
+  display: inline-block;
+  background-color: #3c9bc5;
+  width: 100%;
+  margin-top: 10px; }
+  .advantages p {
+    color: #fff;
+    padding-top: 20px; }
+
+.imgit {
+  display: inline-block;
+  margin-top: 30px; }
+
+.servitem {
+  margin-bottom: 30px; }
+  .servitem h3 {
+    text-decoration: underline; }
+
+.contheader {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  color: #000; }
+
+.contacts {
+  background-color: #fff;
+  padding-bottom: 20px; }
+
+hr {
+  margin-bottom: 0px;
+  margin-top: 0px; }
+
+.sorry {
+  padding-top: 300px;
+  padding-bottom: 300px; }
+
+.bottomhr {
+  margin-bottom: 20px; }
+
+.border {
+  padding: 0px;
+  border-color: #4FC3F7 !important;
+  border-width: 6px !important;
+  margin-bottom: 30px; }
+
+.bottomZone {
+  margin-top: 10px; }
+
+.alldoct {
+  margin-bottom: 30px; }
+
+.byauthor {
+  margin-top: 6px; }
+
+.required {
+  margin-top: 20px; }
+  .required p {
+    font-size: 20px; }
+  .required span {
+    font-weight: 700; }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #123344; }
+
+.dnames {
+  font-size: 24px; }
+
+.footm {
+  font-size: 12px; }
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff; }
+  .footer nav ul {
+    line-height: 24px; }
+    .footer nav ul li {
+      display: block; }
+      .footer nav ul li a {
+        color: #6f99af; }
+  .footer p {
+    margin-bottom: 0.5rem;
+    color: #6f99af;
+    font-size: 12px; }
+
+.subheadbtn {
+  width: 150px;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+/*# sourceMappingURL=main.css.map */
