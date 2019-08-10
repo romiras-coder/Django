@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+{% load static%}
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>АльфаСкан</title>
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 </head>
 <body>
 	<div class="mainhead">
@@ -16,22 +17,10 @@
 						<img class="rounded logo" src="../img/logoas.png" width="120px" alt="АльфаСкан">
 					</div>
 				</div>
-				<div class="col-md-3 order-sm-2 col-xs-12">
-					<div class="phone font-weight-bold text-right">
-						+7 (499) 444-02-61 
-					</div>
-				</div>
+
 				<div class="col-md-8 order-sm-1 col-xs-12 text-right">
 					<nav class="main-menu text-uppercase">
-						<ul>
-							<li><a href="../index.html">Главная</a></li>
-							<li><a href="../html/about.html">О компании</a></li>
-							<li><a href="../html/services.html">Услуги</a></li>
-							<li class="active"><a href="../html/pricelist.html">Цены</a></li>
-							<li><a href="../html/patients.html">Пациентам</a></li>
-							<li><a href="../html/doctors.html">Врачам</a></li>
-							<li><a href="../html/contacts.html">Контакты</a></li>
-						</ul>
+					    {% include 'mainapp/includes/inc_menu.html' %}
 					</nav>
 				</div>
 			</div>
@@ -563,36 +552,6 @@
         </div>
         <p><span>Имеются противопоказания к выполнению рентгенологического исследования.<br>Проконсультируйтесь с лечащим врачом.</span></p>
     </div>
-<div class="container-fluid">
-		<div class="container footer">
-			<div class="row">
 
-				<div class="col-sm-2 col-xs-1 footm">
-					<nav>
-						<ul>
-							<li><a href="index.html">Главная</a></li>
-							<li><a href="html/about.html">О компании</a></li>
-							<li><a href="html/services.html">Услуги</a></li>
-							<li><a href="html/pricelist.html">Цены</a></li>
-							<li><a href="html/patients.html">Пациентам</a></li>
-							<li><a href="html/doctors.html">Врачам</a></li>
-							<li><a href="html/contacts.html">Контакты</a></li>
-						</ul>
-					</nav>
-				</div>
-
-				<div class="col-sm-6 col-xs-0"></div>
-
-				<div class="col-sm-4 col-xs-4 text-right">
-					<div class="pfoot">
-						<p><span>Телефон:</span> +7 (499) 444-02-61</p>
-						<p><span>Адрес:</span> 117624, г.Москва, ул. Скобелевская, 1А<br>Здание "КОМФОРТ", 2-й этаж.</p>
-						<p><span>График работы:</span><br>Пн - Пт: с 9:00 до 21:00<br>Сб - Вс: с 10:00 до 20:00</p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-</div>
 </body>
 </html>	
