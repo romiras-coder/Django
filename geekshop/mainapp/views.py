@@ -11,3 +11,6 @@ def about(request):
 
 def contact(request):
     return render(request, 'mainapp/contact.html')
+
+def pricelist(request):
+    return render(request, 'mainapp/pricelist.html')
