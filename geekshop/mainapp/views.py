@@ -11,5 +11,3 @@ def about(request):
 
 def contact(request):
     return render(request, 'mainapp/contact.html')
-
-# Create your views here.
