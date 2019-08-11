@@ -1,32 +1,11 @@
-<!DOCTYPE html>
-{% load static%}
-<html lang="ru">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>АльфаСкан</title>
-	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
-	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'sass/main.sass' %}">
-</head>
-<body>
-	<div class="mainhead">
-		<div class="container">
-			<div class="row topp">
-				<div class="col-md-1">
-					<div class="text-left">
-						<img class="rounded logo" src="{% static 'img/logoas.png' %}" width="120px" alt="АльфаСкан">
-					</div>
-				</div>
+{% extends 'mainapp/base.html' %}
+{% load static %}
+{% block title %}
+	<title>Прайслист</title>
+{% endblock %}
 
-				<div class="col-md-8 order-sm-1 col-xs-12 text-right">
-					<nav class="main-menu text-uppercase">
-					    {% include 'mainapp/includes/inc_menu.html' %}
-					</nav>
-				</div>
-			</div>
-		</div>
-	</div>
+{% block content %}
+
 	<div class="container">
 		<div class="row addhead">
 			<h1>Прайс-лист</h1>
@@ -553,6 +532,4 @@
         </div>
         <p><span>Имеются противопоказания к выполнению рентгенологического исследования.<br>Проконсультируйтесь с лечащим врачом.</span></p>
     </div>
-
-</body>
-</html>	
+{% endblock %}
