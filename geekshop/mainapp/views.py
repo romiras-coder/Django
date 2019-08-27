@@ -12,7 +12,9 @@ def about(request):
 def contact(request):
     return render(request, 'mainapp/contact.html')
 
-def pricelist(request):
+def pricelist(request, pk=None):
+    print(pk)
     products = Product.objects.all()
     content = {'products': products}
     return render(request, 'mainapp/pricelist.html', content)
+
