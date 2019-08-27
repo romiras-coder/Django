@@ -17,3 +17,4 @@ def pricelist(request, pk=None):
     products = Product.objects.all()
     content = {'products': products}
     return render(request, 'mainapp/pricelist.html', content)
+
